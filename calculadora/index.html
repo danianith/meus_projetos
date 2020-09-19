@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">        
+        <title>\o/ Calculadora \o/</title>
+    </head>
+    <script language="javascript" src="js/script.js"></script>
+
+    <body>
+        <div class="container">
+
+            <div class="titulo">
+                <h1>CALCULA <img class="dora" src="img/dora.png"></h1>
+            </div>
+
+            <div class="calculadora">
+
+                <div>
+                    <form name='result'>
+                        <input class="text" name='text' id="result" placeholder="0">
+                    </form>
+                </div>
+
+                <div class="teclas">
+
+                    <div class="numero">
+                        <button class="bot" onclick="numOp(1)" value="1">1</button>
+                        <button class="bot" onclick="numOp(2)" value="2">2</button>
+                        <button class="bot" onclick="numOp(3)" value="3">3</button><br>
+                        <button class="bot" onclick="numOp(4)" value="4">4</button>
+                        <button class="bot" onclick="numOp(5)" value="5">5</button>
+                        <button class="bot" onclick="numOp(6)" value="6">6</button><br>
+                        <button class="bot" onclick="numOp(7)" value="7">7</button>
+                        <button class="bot" onclick="numOp(8)" value="8">8</button>
+                        <button class="bot" onclick="numOp(9)" value="9">9</button><br>
+                        <button class="bot zero" onclick="numOp(0)" value="0">0</button>                        
+                    </div>
+
+                    <div class="opera"> 
+                        <button class="bot" onclick="numOp('.')" value=".">.</button>                      
+                        <button class="bot" onclick="limpa('c')" value="c">c</button><br>
+                        <button class="bot" onclick="numOp('/')" value="/">/</button>
+                        <button class="bot" onclick="numOp('-')" value="-">-</button><br>
+                        <button class="bot" onclick="numOp('*')" value="*">x</button>
+                        <button class="bot" onclick="numOp('+')" value="+">+</button><br>
+                        <button class="bot igual" onclick="igual('=')" value="=">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="rodape">
+            <p>Copyright &copy; 2020 - by Daniani Thozeski<br>
+            <a href="http://www.linkedin.com/in/danianith" target="_blank">LinkedIn</a> | <a href="http://www.github.com/danianith" target="_blank">GitHub</a></p>
+        </footer>      
+    </body>
+</html>
